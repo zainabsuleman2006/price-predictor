@@ -1,0 +1,17 @@
+[theme]
+backgroundColor="#75545f"
+textColor="black"
+primaryColor="darkGoldenrod"
+secondaryColor="darkGoldenrod"
+font= "montserrat"
+
+baseRadius="full"
+
+[theme.sidebar]
+backgroundColor="#9c828b"
+
+primaryColor="darkGoldenrod"
+showWidgetBorder=true
+showSideBarBorder=true
+baseRadius="full"
+font= "montserrat"

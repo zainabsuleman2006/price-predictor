@@ -53,8 +53,8 @@ with pred:
     with bth:
         bathroom = st.slider("Select Number of Bathrooms:",min_value=0,max_value=5)
     with flr:
-        floorx=st.number_input("Floor Number",min_value=0,value=1, step=1)
-        floory= st.number_input("Total Floors in Building",value=floorx,step=1)
+        floorx=st.number_input("Floor Number",min_value=0,max_value=50,value=1, step=1)
+        floory= st.number_input("Total Floors in Building",max_value=50,value=floorx,step=1)
         if floorx>floory:
             raise st.error("floor exceeding range")
 

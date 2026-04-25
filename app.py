@@ -25,7 +25,7 @@ st.markdown('Author: Zainab CF-25097')
 #printing r2 score and mean absolute error on app in 2 columns
 r2,mae,empty = st.columns(3)
 with r2:
-    st.markdown("#### **Model Reliability**(R2 SCORE):")
+    st.markdown("#### **Model Reliability** (R2 SCORE):")
     st.write(f"{rscore:,.2f}")
 
 with mae:

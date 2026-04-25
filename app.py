@@ -42,7 +42,7 @@ values=pd.DataFrame(0,index=[0], columns = cols)
 #creating 2 tabs on app for prediction and analytics
 pred, analytics = st.tabs(["**Prediction**","**Analytics**"])
 with pred:
-    st.markdown("## :gray[Enter the details then click \"predict\".]")
+    st.markdown("## :gray[Enter the details then click \"Predict\".]")
 
     #creating columns to have input
     loct,furnt,bth,flr=st.columns(4,border=True)

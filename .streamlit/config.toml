@@ -1,5 +1,5 @@
 [theme]
-backgroundColor="#75545f"
+backgroundColor="#52796f"
 textColor="black"
 primaryColor="darkGoldenrod"
 secondaryColor="darkGoldenrod"
@@ -8,7 +8,7 @@ font= "montserrat"
 baseRadius="full"
 
 [theme.sidebar]
-backgroundColor="#9c828b"
+backgroundColor="#84a98c"
 
 primaryColor="darkGoldenrod"
 showWidgetBorder=true
